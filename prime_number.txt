@@ -1,0 +1,9 @@
+prime = int (input ("Please enter a positive number greater than 2: "))
+
+for i in range (2, prime):
+    if prime % i == 0:
+        print (f"{prime} is not a prime number")
+        break
+    else:
+        print (f"{prime} is a prime number")
+        break
